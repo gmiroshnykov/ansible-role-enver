@@ -1,0 +1,5 @@
+- name: install 'enver'
+  get_url:
+    url=https://raw.github.com/laggyluke/enver/master/enver.sh
+    dest=/usr/local/bin/enver
+    mode=0755
